@@ -84,7 +84,7 @@ footer {
 
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
+    margin: 10;
     padding: 0;
 }
 
@@ -98,6 +98,7 @@ header {
 header h1 {
     margin: 0;
 }
+
 
 nav ul {
     list-style-type: none;
@@ -157,6 +158,80 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/*Fale conoso, redes sociais*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px;
+}
+
+#fale-conosco {
+    text-align: center;
+}
+
+#informacoes-contato {
+    margin-top: 30px;
+}
+
+#informacoes-contato a{
+    text-decoration: none;
+    color: black;
+}
+
+#redes-sociais {
+    margin-top: 30px;
+}
+
+#redes-sociais a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color:white;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 
 /*Carrinho de COMPRAS*/
 
